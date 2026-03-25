@@ -9,8 +9,7 @@
 <body>
     <div class="titulo_principal">
         <h1>O senhor dos anéis</h1>
-        <h2>Uma das trilogias mais famosas do cinema
-            pneumoultramicroscopicossilicovu<wbr>lcanoconiótico</h2>
+        <h2>Uma das trilogias mais famosas do cinema<wbr></h2>
         <nav>
             <a href="Informações.html">Informações</a>
             <a href="ordem.html">Ordem de filmes</a>
@@ -19,22 +18,52 @@
             <a href="contato.html">Contato</a>
         </nav>
     </div>
-    <h2 class="Titulo_segundario">Entre em contato:</h2>
+    <h2 class="Titulo_segundario">Contato com a Guerra Média
+    </h2>
     <form action="" method="">
-        <label for="nomepessoa">Nome:</label>
+        <label for="nomepessoa">Nome na Terra Média:</label>
         <input type="text" name="nomepessoa"
         id="nomepessoa" minlength="3" maxlength="15"
-        required placeholder="informe seu nome"> <br><br>
+        required placeholder="Adicione um nome da Terra Média" size="25"> <br><br>
 
-        <label for="email">Email:</label>
+        <label for="email">Corvo eletrônico  (Email):</label>
         <input type="email" name="email" id="email"
-        required placeholder="informe seu email"><br><br>
+        required placeholder="Informe seu email de corvo eletrônico" size="27"><br><br>
 
         <label for="ano">Ano de nascimento:</label>
-        <input type="number" id="ano" name="ano" max="2026" min="2000"
-        placeholder="informe seu ano de nascimento">
+        <input type="number" id="ano" name="ano" max="2026" min="1999"
+        placeholder="Informe seu ano de nascimento" style="width: 195px; padding: 1px;"><br><br>
 
-        <label>Telefone</label>
+        <fieldset>
+            <legend>Qual é sua raça?</legend>
+
+            <label>
+                <input type="radio" name="raca" value="humano"> Humano
+            </label>
+
+            <label>
+                <input type="radio" name="raca" value="elfo" checked> Elfo
+            </label>
+
+            <label>
+                <input type="radio" name="raca" value="anao"> Anão
+            </label>
+
+            <label>
+                <input type="radio" name="raca" value="hobbit"> Hobbit
+            </label>
+        </fieldset><br><br>
+
+        
+        <label for="filme">Escolha seu filme favorito</label>
+
+        <select name="filme" id="filme">
+            <option value="filme1">O Retorno do Rei</option>
+
+        </select>
+
+
+        <br><br><label>Telefone</label>
         <input type="tel" name="telefone" id="telefone"
         placeholder="informe seu telefone">
 

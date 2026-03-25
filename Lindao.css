@@ -4,5 +4,8 @@
 }
 .Titulo_segundario{
     background-color: rgb(34, 81, 10);
-    color: white
+    color: white;
+    font-size: 50px;
+    border: 3px solid black;
+    
 }
